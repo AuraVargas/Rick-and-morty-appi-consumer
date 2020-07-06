@@ -1,38 +1,49 @@
-.App {
+body{
+  background-color: cadetblue;
   text-align: center;
+  background-image: url('./fondo.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+  width: 13rem;
+  height: 20rem;
+  text-align: left;
+  margin: 20%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.pagination{
+  margin-right: 16%;
+  float: right;
+}
+.active a{
+  background-color:#85C1E9  !important;
+}
+.App-logo{
+  width: 20%;
+}
+.buscador{
+  margin-left: 20%;
+  width: 83%;
+}
+.caja{
+  margin-left: 0.8%;
+}
+.imagen{
+  width: 90%;
+}
+.lista{
+  text-align: left;
+  margin-left: 7%;
+}
+.modal-header{
+  background-color:#16A085;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
